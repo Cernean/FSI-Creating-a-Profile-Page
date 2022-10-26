@@ -13,10 +13,10 @@ content.append(dogContent)
 let dogImage = document.createElement('img')
 dogImage.setAttribute('class', 'dog-image')
 dogImage.setAttribute('src', './assets/rizzo.jpg')
-content.append(dogImage)
+dogContent.append(dogImage)
 
 let dogDetails = document.createElement('div')
 dogDetails.setAttribute('class', 'dog-details')
-content.append(dogDetails)
+docContent.append(dogDetails)
 
 
